@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    app:cardElevation="5dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/user_profile_image_post"
+            android:padding="5dp"
+            android:src="@drawable/profile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name_post"
+                android:text="@string/user_name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop"
+        android:id="@+id/post_image_home"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp">
+
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:id="@+id/post_image_like_btn"
+            android:src="@drawable/hser1"/>
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="34dp"
+            android:id="@+id/post_image_comment_btn"
+            android:src="@drawable/com"
+
+            android:layout_toEndOf="@+id/post_image_like_btn"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="6dp"/>
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="39dp"
+            android:id="@+id/post_isave_comment_btn"
+            android:src="@drawable/saveunfill"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="3dp"/>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/likes"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/publisher"
+        android:layout_marginStart="10dp"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/comments"
+        android:layout_marginStart="10dp"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

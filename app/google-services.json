@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "861372704575",
+    "firebase_url": "https://zeechat-e9b18.firebaseio.com",
+    "project_id": "zeechat-e9b18",
+    "storage_bucket": "zeechat-e9b18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861372704575:android:7f9350f751f8cab91c558a",
+        "android_client_info": {
+          "package_name": "com.rgbat.zeechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861372704575-575al9la46h2njm26qlh0ggvqoob5hsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdINmJMuaF0GvMRbUZAZeuCMeptrxoygU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861372704575-575al9la46h2njm26qlh0ggvqoob5hsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
